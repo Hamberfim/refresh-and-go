@@ -11,6 +11,11 @@ func add(x int, y int) int {
 	return x + y
 }
 
+// shortened type declaration
+func prod(x, y int) int {
+	return x + y
+}
+
 func main() {
 	fmt.Println("A random number is", rand.Intn(10))
 	fmt.Println("Here is PI:", math.Pi)
